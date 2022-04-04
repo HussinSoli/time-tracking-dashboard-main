@@ -1,0 +1,83 @@
+.card {
+  display: grid;
+  border-radius: 1rem 1rem 1.2rem 1.2rem;
+}
+.card--body {
+  background-color: hsl(235, 46%, 20%);
+  padding: 1.5em;
+  color: white;
+  align-self: end;
+  border-radius: 1rem;
+}
+
+.card--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.card--header h2 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.time--diplay {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+
+.previous-time--display {
+  font-size: 0.75rem;
+  color: hsl(236, 100%, 87%);
+  font-weight: 300;
+}
+
+.cardWork {
+  background-color: hsl(15, 100%, 70%);
+  background-image: url(../images/icon-work.svg);
+  background-position: right 10% top -8%;
+  background-repeat: no-repeat;
+  background-size: 60px;
+}
+
+.cardPlay {
+  background-color: hsl(195, 74%, 62%);
+  background-image: url(../images/icon-play.svg);
+  background-position: right 10% top -8%;
+  background-repeat: no-repeat;
+  background-size: 60px;
+}
+
+.cardSocial {
+  background-color: hsl(264, 64%, 52%);
+  background-image: url(../images/icon-social.svg);
+  background-position: right 10% top -8%;
+  background-repeat: no-repeat;
+  background-size: 60px;
+}
+
+.cardSelfCare {
+  background-color: hsl(43, 84%, 65%);
+  background-image: url(../images/icon-self-care.svg);
+  background-position: right 10% top -8%;
+  background-repeat: no-repeat;
+  background-size: 60px;
+}
+.cardStudy {
+  background-color: hsl(348, 100%, 68%);
+  background-image: url(../images/icon-study.svg);
+  background-position: right 10% top -8%;
+  background-repeat: no-repeat;
+  background-size: 60px;
+}
+
+.cardExercise {
+  background-color: hsl(145, 58%, 55%);
+  background-image: url(../images/icon-exercise.svg);
+  background-position: right 10% top -3%;
+  background-repeat: no-repeat;
+  background-size: 60px;
+}
