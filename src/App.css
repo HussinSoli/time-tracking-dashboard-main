@@ -30,28 +30,4 @@ main {
   gap: 1.3rem;
 }
 
-@media only screen and (max-width: 600px) {
-  main {
-    display: grid;
-    height: 100vh;
-  }
-  .container {
-    grid-template-columns: 300px;
-    grid-template-rows: 200px 200px 200px 200px 200px 200px;
-  }
-  .user-card {
-    display: grid;
-    grid-template-columns: 200px 200px;
-    margin-bottom: 1rem;
-    padding-right: 18.75rem;
-  }
-  .card-btn {
-    margin: auto 0;
-  }
-  .user-card--body {
-    height: 200px;
-  }
-  .user-card--body h1 {
-    font-size: 1.5rem;
-  }
-}
+
